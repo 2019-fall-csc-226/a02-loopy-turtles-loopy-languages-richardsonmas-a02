@@ -70,16 +70,22 @@ lefty2.pendown()
 righty2.pendown()
 righty2.right(90)
 lefty2.left(90)
-for n in range(30):
+for n in range(4):
     angler2 = 2*n
     mover2 = 18*(1/(1+n))
     righty2.left(angler2)
     righty2.forward(mover2)
-for n in range(30):
+for n in range(4):
     anglel2 = 2*n
     movel2 = 18*(1/(1+n))
     lefty2.right(anglel2)
     lefty2.forward(movel2)
+lefty2.right(35)
+lefty2.forward(7)
+lefty2.forward(-14)
+righty2.left(35)
+righty2.forward(7)
+righty2.forward(-14)
 
 
 
